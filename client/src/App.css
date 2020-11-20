@@ -183,11 +183,16 @@ img {
 }
 
 .btn-dark,
-.bg-dark,
 .badge-dark,
 .alert-dark {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.bg-dark {
   background: var(--dark-color);
   color: #fff;
+
 }
 
 .btn-danger,
@@ -415,6 +420,8 @@ button {
 .profile-about {
   grid-area: about;
   text-align: center;
+  box-shadow: 0 0 5px var(--primary-color);
+  border-radius: 5px;
 }
 
 .profile-about .skills {
@@ -422,14 +429,20 @@ button {
   align-items: center;
   justify-content: center;
   text-align: center;
+  box-shadow: 0 0 5px black;
+  border-radius: 5px;
 }
 
 .profile-exp {
   grid-area: exp;
+  box-shadow: 0 0 5px var(--primary-color);
+  border-radius: 5px;
 }
 
 .profile-edu {
   grid-area: edu;
+  box-shadow: 0 0 5px var(--primary-color);
+  border-radius: 5px;
 }
 
 .profile-exp h2,
@@ -442,6 +455,7 @@ button {
   margin-bottom: 1rem;
   padding-bottom: 1rem;
   border-bottom: #ccc 1px dotted;
+  
 }
 
 .profile-exp > div:last-child,
