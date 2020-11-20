@@ -1,8 +1,0 @@
-{
-"mongoURI":"mongodb+srv://tylerbelmonte:Phone123!@social-network.x1jxv.mongodb.net/<dbname>?retryWrites=true&w=majority",
-"jwtSecret": "secret token",
-"githubClientId": "f12fde4f6e1515f2f446",
-"githubSecret": "9f219bce41c0214a87d47d0a8b5c0f68b949a4ce"
-}
-
-
