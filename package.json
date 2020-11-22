@@ -30,6 +30,7 @@
     "mongoose": "^5.10.15",
     "redux-devtools-extension": "^2.13.8",
     "request": "^2.88.2",
+    "uri": "^0.1.0",
     "uuid": "^8.3.1"
   },
   "devDependencies": {

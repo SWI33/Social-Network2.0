@@ -135,6 +135,7 @@ img {
   background: var(--light-color);
   color: #333;
   padding: 0.4rem 1.3rem;
+  margin-top: 4px;
   font-size: 1rem;
   border: none;
   cursor: pointer;
@@ -152,6 +153,8 @@ img {
   margin: 0.3rem;
   background: var(--light-color);
   color: #333;
+  box-shadow: 0 0 5px #1b60a0a1;
+  border-radius: 5px;
 }
 
 .alert {
@@ -479,6 +482,8 @@ button {
 
 .profile-github .repo {
   display: flex;
+  box-shadow: 0 0 5px #1b60a0a1;
+  border-radius: 5px;
 }
 
 .profile-github .repo > div:first-child {
